@@ -1,0 +1,288 @@
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../public/banner.png');
+  height: 350px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  
+}
+
+.spoiler {
+  display: none;
+}
+
+.main-navigation {
+  width: 400px;
+}
+
+
+.main-navigation:hover > .spoiler {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  background-color: aqua;
+}
+
+.logo {
+  margin-right: 20%;
+
+}
+
+.logo-img {
+  width: 130px;
+}
+
+.tagline {
+
+  font-size: 19px;
+  margin-left: -160px;
+  font-weight: bold;
+  
+
+}
+
+.Latest-ads {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(121, 118, 118);
+}
+
+.search, .advertising, .tagline {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  margin-bottom: 30px;
+}
+
+.search input {
+  height: 50px;
+  width: 400px;
+  border: none;
+  border-radius: 30px;
+  font-size: 30px;
+  background-image: url('https://remoteok.com/assets/search-black.png');
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 10px;
+  font-weight: bold;
+
+}
+
+input[type=text]{
+  padding-left: 60px;
+
+}
+
+
+.advertiser {
+  display: flex;
+  margin: auto;
+}
+.advertising, .ads-resume-info, .ads-vacancy-info {
+  display: flex;
+}
+
+.advertiser-banner {
+  text-decoration: none;
+  height: 100px;
+  width: 1100px;
+  background-color: rgb(23, 35, 138);
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.9;
+}
+
+.advertiser-banner:hover {
+  opacity: 0.7;
+}
+
+.advertiser-paragraf {
+  color: white;
+  font-size: 22px;
+  width: bolder;
+}
+
+.advertiser-text, .profession-name {
+  font-size: 18px;
+}
+
+.addition, .button-aply {
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  margin-right: 30px;
+  color: rgb(83, 79, 79);
+  font-size: 18px;
+}
+
+
+.vacancy-src {
+  padding-top: 3px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(100, 247, 100);
+}
+
+.resume-src {
+  padding-top: 3px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(241, 241, 147);
+}
+
+.vacancy-list, .resume-list {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(172, 171, 171);
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 20px
+  
+  
+}
+
+
+.main-body {
+  
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto auto auto;
+  
+}
+
+.profession {
+  width: 200px;
+  height: 30px;
+  border-width: 5px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  border-color: rgb(209, 206, 206);
+  padding-left: 10px;
+  margin: 0 0 10px 0;
+  
+
+}
+
+.sa option {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+
+.profession::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.profession:focus {
+  border-width: 5px;
+  border-color: rgb(64, 12, 209);
+  cursor: cell;
+}
+
+.ads-resume-header {
+  background-color: rgb(245, 245, 133);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  
+}
+
+
+.profession-short-description {
+  max-width: 400px;
+}
+
+.button-aply {
+  margin-top: 3%;
+  display: none;
+}
+
+.ads-resume-header:hover > .button-aply {
+  display: block;
+}
+
+.ads-resume-header:hover {
+  cursor: pointer;
+}
+
+.ads-resume-body {
+  background-image: linear-gradient(rgb(241, 241, 147), rgb(253, 253, 253));
+}
+
+
+.ads-vacancy-header {
+  background-color: rgb(100, 247, 100);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  
+}
+.ads-vacancy-header:hover > .button-aply {
+  display: block;
+}
+
+.ads-vacancy-header:hover {
+  cursor: pointer;
+}
+
+.ads-vacancy-body {
+  background-image: linear-gradient(rgb(126, 243, 126), rgb(253, 253, 253));
+}
+
+.profession-short-description {
+  padding-left: 20px;
+}
+
+details {
+  margin-bottom: 20px;
+}
+
+
+
+_______
+
+.main-container {
+  width: 1200px;
+}
+
+.square {
+  display: flex;
+  flex-flow: row wrap;
+  width: 300px;
+  height: 300px;
+}
+.white {
+  width: 95px;
+  height: 100px;
+  border-style: solid;
+}
+
+.red {
+  width: 95px;
+  height: 100px;
+  border-style: solid;
+  background-color: red;
+}
+
+.res-list {
+margin-top: 50px;
+width: 300px;
+max-height: 400px;
+border-style: solid;
+}
